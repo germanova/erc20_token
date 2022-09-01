@@ -1,0 +1,12 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.7.3
+
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.7.3'
+
+dotenv: .env
+
+wallets:
+  account_name: "metamask_1"
